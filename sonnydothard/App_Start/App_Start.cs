@@ -8,7 +8,7 @@ using Microsoft.Owin.Security.Cookies;
 
 namespace sonnydothard.App_Start
 {
-    public class App_Start
+    public class Startup
     {
         public void Configuration(IAppBuilder app)
         {
