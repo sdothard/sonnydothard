@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Security.Claims;
+using sonnydothard.Models;
 
 namespace sonnydothard.Controllers
 {
@@ -19,7 +20,7 @@ namespace sonnydothard.Controllers
         [HttpPost]
         public ActionResult Login(LoginModel model)
         {
-
+            return View(model);
         }
 
         public ActionResult Logout()
