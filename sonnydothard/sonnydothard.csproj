@@ -158,9 +158,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\dothardDB.mdf" />
-    <Content Include="App_Data\dothardDB_log.ldf">
-      <DependentUpon>dothardDB.mdf</DependentUpon>
+    <Content Include="App_Data\mySdData.mdf" />
+    <Content Include="App_Data\mySdData_log.ldf">
+      <DependentUpon>mySdData.mdf</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />

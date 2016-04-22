@@ -11,10 +11,14 @@ namespace sonnydothard.Controllers
     [AllowAnonymous]
     public class AuthController : Controller
     {
-        // GET: Secret
-        public ActionResult Login()
+       [HttpGet]
+        public ActionResult Login(string returnUrl)
         {
-            return View();
+            var model = new LoginModel
+            {
+                ReturnUrl = returnUrl
+            };
+            return View(model);
         }
 
         [HttpPost]
