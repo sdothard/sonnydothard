@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace sonnydothard.Models
 {
-    public class LoginModel
+    public class Users
     {
         [Required]
         [DataType(DataType.EmailAddress)]

@@ -14,7 +14,7 @@ namespace sonnydothard.Controllers
        [HttpGet]
         public ActionResult Login(string returnUrl)
         {
-            var model = new LoginModel
+            var model = new Users
             {
                 ReturnUrl = returnUrl
             };
@@ -22,7 +22,7 @@ namespace sonnydothard.Controllers
         }
 
         [HttpPost]
-        public ActionResult Login(LoginModel model)
+        public ActionResult Login(Users model)
         {
             return View(model);
         }
